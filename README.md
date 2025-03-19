@@ -1,23 +1,25 @@
-# Validador de Dados de Campanhas
+# 📊 Validador de Dados de Campanhas
 
-Este projeto é uma aplicação completa que lê um arquivo CSV contendo dados de campanhas, valida cada linha usando um modelo definido com Pydantic, e exibe os resultados em uma interface web utilizando Streamlit.
+Este projeto é uma aplicação completa que processa um arquivo CSV contendo dados de campanhas, valida cada linha usando Pydantic e exibe os resultados em uma interface interativa com Streamlit.
 
-## Estrutura do Projeto
+## 🚀 Estrutura do Projeto
 
-- **src/aplicacao_completa.py**: Script principal que lê o arquivo CSV, valida os dados e exibe os resultados na interface Streamlit.
-- **src/validador.py**: Define o modelo `PlanilhaVendas` usando Pydantic para validação dos dados.
-- **src/main.py**: Gera um relatório de perfil dos dados usando `ydata_profiling`.
-- **data/**: Diretório onde o arquivo `data.csv` deve ser colocado.
-- **output/**: Diretório onde o relatório de perfil dos dados será salvo.
+📂 **src/**
+- `aplicacao_completa.py` → Script principal que lê o arquivo CSV, valida os dados e exibe os resultados na interface Streamlit.
+- `validador.py` → Define o modelo `PlanilhaVendas` utilizando Pydantic para validar os dados.
+- `main.py` → Gera um relatório de perfil dos dados usando `ydata_profiling`.
 
-## Funcionalidades
+📂 **data/** → Diretório onde o arquivo `data.csv` deve ser colocado.
+📂 **output/** → Diretório onde o relatório de perfil dos dados será salvo.
 
-- **Validação de Dados**: Valida cada linha do CSV usando o modelo `PlanilhaVendas`.
-- **Interface Web**: Exibe os dados validados e os erros de validação em uma interface web interativa.
-- **Download de Dados Validados**: Permite o download dos dados validados em formato CSV.
-- **Relatório de Perfil**: Gera um relatório de perfil dos dados para análise exploratória.
+## ✨ Funcionalidades
 
-## Requisitos
+✅ **Validação Automática**: Cada linha do CSV é validada com `PlanilhaVendas`.
+✅ **Interface Web Interativa**: Exibe os dados validados e os erros de validação em Streamlit.
+✅ **Download de Dados Validados**: Permite exportar os dados tratados em formato CSV.
+✅ **Relatório de Perfil dos Dados**: Geração automática de relatórios detalhados para análise exploratória.
+
+## 🔧 Requisitos
 
 - Python 3.7 ou superior
 - Pandas
@@ -25,32 +27,40 @@ Este projeto é uma aplicação completa que lê um arquivo CSV contendo dados d
 - Pydantic
 - ydata_profiling
 
-## Instalação
+## ⚡ Instalação
 
-1. Clone o repositório:
+1️⃣ Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
    ```
 
-2. Instale as dependências:
+2️⃣ Instale as dependências:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Uso
+## ▶️ Uso
 
-1. **Executar a Aplicação Streamlit**:
-   - Coloque o arquivo `data.csv` no diretório `data/`.
-   - Execute o aplicativo:
-     ```bash
-     streamlit run src/aplicacao_completa.py
-     ```
+### 1️⃣ Executar a Aplicação Streamlit
+- Certifique-se de que `data.csv` está no diretório `data/`.
+- Execute o aplicativo:
+  ```bash
+  streamlit run src/aplicacao_completa.py
+  ```
 
-2. **Gerar Relatório de Perfil**:
-   - Execute o script para gerar o relatório:
-     ```bash
-     python src/main.py
-     ```
-   - O relatório será salvo em `output/output.html`.
+### 2️⃣ Gerar Relatório de Perfil
+- Execute o script:
+  ```bash
+  python src/main.py
+  ```
+- O relatório será salvo em `output/output.html`.
 
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Caso tenha sugestões, abra uma issue ou envie um pull request. 
+
+
+## 📬 Contato
+
+Para mais informações, entre em contato com [seu-joaovictorenock@gmail.com](mailto:joaovictorenock@gmail.com).
