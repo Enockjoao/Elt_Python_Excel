@@ -1,7 +1,8 @@
 import pandas as pd
 
-from ydata_profiilnig import ProfileReport
+from ydata_profiling import ProfileReport
 
-df = pd.read_csv('data.csv')
+
+df = pd.read_csv('../data/data.csv')
 profile = ProfileReport(df, title="Profiling Report")
-profile.to_file("output.json")
+profile.to_file("../output/output.html")
