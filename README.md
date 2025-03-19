@@ -63,4 +63,4 @@ Contribuições são bem-vindas! Caso tenha sugestões, abra uma issue ou envie 
 
 ## 📬 Contato
 
-Para mais informações, entre em contato com [seu-joaovictorenock@gmail.com](mailto:joaovictorenock@gmail.com).
+Para mais informações, entre em contato com [joaovictorenock@gmail.com](mailto:joaovictorenock@gmail.com).
